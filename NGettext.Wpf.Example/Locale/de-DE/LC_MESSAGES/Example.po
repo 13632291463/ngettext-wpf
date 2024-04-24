@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 09:58+0800\n"
+"POT-Creation-Date: 2024-04-24 10:24+0800\n"
 "PO-Revision-Date: 2019-03-18 08:40+0100\n"
 "Last-Translator: Robert Jørgensgaard Engdahl <rje@accuratech.dk>\n"
 "Language-Team: \n"
@@ -19,6 +19,10 @@ msgstr ""
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:16
 msgid "(* To change min- and max input range, you need special rights)"
 msgstr "（*要改变最大最小范围，你需要高级权限）"
+
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:21
+msgid "A,B"
+msgstr ""
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
 msgid "Binding string format support: {0:n0}"

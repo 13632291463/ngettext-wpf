@@ -22,7 +22,7 @@ msgcat.exe --use-first -o obj/result.pot obj/csmessages.pot obj/xamlmessages.pot
 
 # Update po files with most recent msgids
 # 使用最新的 msgids 更新 po 文件
-$locales = @("da-DK", "de-DE")
+$locales = @("da-DK", "de-DE", "zh-CN")
 $poFiles = $($locales | ForEach-Object { "Locale/" + $_ + "/LC_MESSAGES/Example.po" })
 
 $poFiles | ForEach-Object {
