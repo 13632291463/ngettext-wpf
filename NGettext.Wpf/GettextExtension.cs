@@ -54,8 +54,8 @@ namespace NGettext.Wpf
             {
                 System.Console.WriteLine("NGettext.Wpf: Target object of type {0} is not yet implemented", provideValueTarget.TargetObject?.GetType());
             }
-
-            return Gettext();
+            string str= Gettext();
+            return str;
         }
 
         private string Gettext()

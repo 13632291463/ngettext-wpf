@@ -17,11 +17,21 @@ namespace NGettext.Wpf.Example
     /// <summary>
     /// Window1.xaml 的交互逻辑
     /// </summary>
-    public partial class Window1 : Window
+    public partial class MainWindow1 : Window
     {
-        public Window1()
+        private readonly ChangeCultureCommand _target;
+        //private readonly ICultureTracker _cultureTracker = Substitute.For<ICultureTracker>();
+
+        public MainWindow1()
         {
+            _target = new ChangeCultureCommand();
+            //ChangeCultureCommand.CultureTracker = _cultureTracker;
+            _target.Execute("de-DE");
             InitializeComponent();
+           
+
+     
+
         }
     }
 }
