@@ -13,12 +13,12 @@
     <Grid>
         <StackPanel>
             <!--<Button Content="{wpf:Gettext English}" />-->
-            <!--<Button Content="{wpf:Gettext (* To change min- and max input range, you need special rights)}" />-->
+            <Button Content="{wpf:Gettext (* To change min- and max input range\, you need special rights)}" />
             <Button Content="{wpf:Gettext change}" />
             <Button Content="{wpf:Gettext change to}" />
             <Button Content="{wpf:Gettext To change}" />
-            <!--<Button Content="{wpf:Gettext To change min- and max input range, you need special rights}" />-->
-
+            <Button Content="{wpf:Gettext To change min- and max input range\, you need special rights}" />
+            <Button Content="{wpf:Gettext A\,B}" />
         </StackPanel>
     </Grid>
 </Window>

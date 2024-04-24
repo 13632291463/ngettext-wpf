@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-24 10:24+0800\n"
-"PO-Revision-Date: 2024-04-24 10:09+0800\n"
+"PO-Revision-Date: 2024-04-24 10:36+0800\n"
 "Last-Translator: Robert Jørgensgaard Engdahl <rje@accuratech.dk>\n"
 "Language-Team: \n"
 "Language: da_DK\n"
@@ -22,7 +22,7 @@ msgstr "（*要改变最大最小范围，你需要高级权限）"
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:21
 msgid "A,B"
-msgstr ""
+msgstr "A,B"
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
 msgid "Binding string format support: {0:n0}"
