@@ -1,10 +1,12 @@
 # Invoke this script fron the Nuget package manager console.  CD into the directory of this script before invoking.
+# 在 Nuget 包管理器控制台上调用此脚本。 CD 添加到此脚本的目录中，然后再调用。
 
 # gettext tools don't setup their path correctly yet, so here is a work-around
 # getText 工具尚未正确设置其路径，因此这里有一个解决方法
 $env:Path += ";..\packages\Gettext.Tools.0.19.8.1\tools\bin"
 
 # Extract msgids from xaml files in project into pot file.  If you installed NGettext.Wpf via nuget you can source like so:
+# 将项目中xaml文件中的msgids解压到pot文件中。 如果通过 nuget 安装了 NGettext.Wpf，则可以像这样进行源：
 #   . XGetText-Xaml.ps1
 # instead of the following
 . ../XGetText.Xaml/XGetText-Xaml.ps1

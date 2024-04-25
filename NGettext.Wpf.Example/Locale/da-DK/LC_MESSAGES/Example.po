@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 10:24+0800\n"
+"POT-Creation-Date: 2024-04-25 10:00+0800\n"
 "PO-Revision-Date: 2024-04-24 10:38+0800\n"
 "Last-Translator: Robert Jørgensgaard Engdahl <rje@accuratech.dk>\n"
 "Language-Team: \n"
@@ -22,6 +22,11 @@ msgstr "（*要改变最大最小范围，你需要高级权限）"
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:21
 msgid "A,B"
+msgstr "A,B"
+
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:22
+#, fuzzy
+msgid "A,C"
 msgstr "A,B"
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
@@ -69,6 +74,10 @@ msgstr "GNOME glib syntaks-context-eksempel"
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:36
 msgid "German"
 msgstr "Tysk"
+
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:23
+msgid "HI"
+msgstr ""
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:46
 msgid "Localized date time format example:"

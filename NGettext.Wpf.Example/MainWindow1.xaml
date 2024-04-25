@@ -18,7 +18,9 @@
             <Button Content="{wpf:Gettext change to}" />
             <Button Content="{wpf:Gettext To change}" />
             <Button Content="{wpf:Gettext To change min- and max input range\, you need special rights}" />
-            <Button Content="{wpf:Gettext A\,B}" />
+            <!--<Button Content="{wpf:Gettext A\,B}" />-->
+            <Button Content="{wpf:Gettext A\,C}" />
+            <Button Content="{wpf:Gettext HI}" />
         </StackPanel>
     </Grid>
 </Window>
