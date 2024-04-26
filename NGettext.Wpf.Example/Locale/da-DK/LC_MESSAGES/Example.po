@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-25 10:00+0800\n"
+"POT-Creation-Date: 2024-04-26 09:51+0800\n"
 "PO-Revision-Date: 2024-04-24 10:38+0800\n"
 "Last-Translator: Robert Jørgensgaard Engdahl <rje@accuratech.dk>\n"
 "Language-Team: \n"
@@ -28,6 +28,10 @@ msgstr "A,B"
 #, fuzzy
 msgid "A,C"
 msgstr "A,B"
+
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:24
+msgid "ABC_AAAA"
+msgstr ""
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
 msgid "Binding string format support: {0:n0}"
