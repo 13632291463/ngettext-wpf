@@ -12,6 +12,7 @@
         mc:Ignorable="d" Width="525" x:Name="Window">
     <Window.Resources>
         <!-- The following ensures all enum values are translated when displayed -->
+        <!--以下确保在显示时转换所有枚举值-->
         <enumTranslation:LocalizeEnumConverter x:Key="LocalizeEnumConverter" />
         <DataTemplate DataType="{x:Type system:Enum}">
             <TextBlock Text="{Binding Converter={StaticResource LocalizeEnumConverter}}" />
@@ -35,7 +36,9 @@
             <Button CommandParameter="de-DE" Command="{StaticResource ChangeCultureCommand}"
                     Content="{wpf:Gettext German}" />
             <Button CommandParameter="da-DK" Command="{StaticResource ChangeCultureCommand}"
-                    Content="{wpf:Gettext Danish}" />
+                    Content="{wpf:Gettext Danish}" /> 
+            <Button CommandParameter="zh-CN" Command="{StaticResource ChangeCultureCommand}"
+                    Content="{wpf:Gettext 中文}" />
         </StackPanel>
         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
             <TextBlock Text="{wpf:Gettext Localized number format example:}" Width="280" TextAlignment="Right"
@@ -62,6 +65,7 @@
         <TextBlock Text="{Binding PluralGettext, ElementName=Window, Mode=OneWay}" HorizontalAlignment="Center" />
         <TextBlock Text="{Binding PluralGettextParams, ElementName=Window, Mode=OneWay}" HorizontalAlignment="Center" />
         <!-- Note that escaped single-quotes are not supported by the VS designer at the time of writing -->
+        <!--请注意，在撰写本文时，VS 设计器不支持转义的单引号-->
         <!--<TextBlock Text="{wpf:Gettext 'Enclosing single-quotes (\') are optional'}"  HorizontalAlignment="Center" />-->
         <TextBlock Text="{wpf:Gettext 'Enclosing single-quotes (apostrophes) are optional.'}"  HorizontalAlignment="Center" />
         <TextBlock Text="{wpf:Gettext Unenclosed escaped single-quotes (\') are supported.}"  HorizontalAlignment="Center" />

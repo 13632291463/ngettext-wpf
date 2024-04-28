@@ -10,6 +10,9 @@ namespace NGettext.Wpf
     /// Makes sure that the CultureInfo used for all binding operations inside the associated
     /// FrameworkElement follows the CurrentCulture of the CultureTracker injected to the static
     /// CultureTracker property.
+    /// 确保 CultureInfo 用于关联的
+    /// FrameworkElement 遵循注入到静态的 CultureTracker 的 CurrentCulture
+    /// CultureTracker 属性。
     ///
     /// For instance, dates and numbers bound with a culture specific StringFormat will be formatted
     /// according to the tracked culture and even reformatted on culture changed.

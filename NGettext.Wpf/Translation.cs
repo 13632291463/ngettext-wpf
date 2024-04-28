@@ -25,6 +25,14 @@ namespace NGettext.Wpf
 
         public static string Noop(string msgId) => msgId;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="singularMsgId">单数Id</param>
+        /// <param name="pluralMsgId">复数Id</param>
+        /// <param name="params">参数</param>
+        /// <returns></returns>
         [StringFormatMethod("singularMsgId")]
         [StringFormatMethod("pluralMsgId")] //< not yet supported, #1833369.
         [Obsolete("Use GetPluralString() instead.  This method will be removed in 2.x")]

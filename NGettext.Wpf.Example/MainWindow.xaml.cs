@@ -59,7 +59,7 @@ namespace NGettext.Wpf.Example
                 await Task.Delay(TimeSpan.FromSeconds(1));
                 ++MemoryLeakTestProgress;
                 foreach (var locale in new[]
-                    {"da-DK", "de-DE", "en-US", TrackCurrentCultureBehavior.CultureTracker?.CurrentCulture?.Name})
+                    {"da-DK", "de-DE", "en-US", "zh-CN",TrackCurrentCultureBehavior.CultureTracker?.CurrentCulture?.Name})
                 {
                     await Task.Delay(TimeSpan.FromSeconds(1));
                     if (TrackCurrentCultureBehavior.CultureTracker != null)
@@ -96,9 +96,15 @@ namespace NGettext.Wpf.Example
 
         public string Header => Translation._("NGettext.WPF Example");
 
+        /// <summary>
+        /// 复数 Gettext
+        /// </summary>
         public string PluralGettext => Translation.PluralGettext(1, "Singular", "Plural") +
                                        "---" + Translation.PluralGettext(2, "Singular", "Plural");
 
+        /// <summary>
+        /// 复数 Gettext 参数
+        /// </summary>
         public string PluralGettextParams => Translation.PluralGettext(1, "Singular {0:n3}", "Plural {0:n3}", 1m / 3m) +
                                              "---" + Translation.PluralGettext(2, "Singular {0:n3}", "Plural {0:n3}", 1m / 3m);
 

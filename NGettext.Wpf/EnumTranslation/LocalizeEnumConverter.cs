@@ -4,6 +4,9 @@ using System.Windows.Data;
 
 namespace NGettext.Wpf.EnumTranslation
 {
+    /// <summary>
+    /// 本地化枚举转换器
+    /// </summary>
     public class LocalizeEnumConverter : IValueConverter
     {
         private IEnumLocalizer _enumLocalizer;

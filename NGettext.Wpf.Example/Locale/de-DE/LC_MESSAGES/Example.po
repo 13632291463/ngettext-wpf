@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-28 10:12+0800\n"
+"POT-Creation-Date: 2024-04-28 11:50+0800\n"
 "PO-Revision-Date: 2024-04-24 10:37+0800\n"
 "Last-Translator: Robert Jørgensgaard Engdahl <rje@accuratech.dk>\n"
 "Language-Team: \n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "(* To change min- and max input range, you need special rights)"
 msgstr "（*要改变最大最小范围，你需要高级权限）"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:74
 msgid "Binding string format support: {0:n0}"
 msgstr "Binding-string-format-unterstützung {0:n0}"
 
@@ -40,15 +40,15 @@ msgstr "Dänisch"
 msgid "Deferred localization"
 msgstr "Aaufgeschobene Übersetzung"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:56
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:58
 msgid "Deferred localization example:"
 msgstr "Beispiel von aufgeschobene Übersetzung:"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:65
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:68
 msgid "Enclosing single-quotes (') are optional"
 msgstr "Einschließende einfache Anführungszeichen (') sind optional"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:66
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:69
 msgid "Enclosing single-quotes (apostrophes) are optional."
 msgstr "Einschließende einfache Anführungszeichen (Apostrophe) sind optional."
 
@@ -56,7 +56,7 @@ msgstr "Einschließende einfache Anführungszeichen (Apostrophe) sind optional."
 msgid "English"
 msgstr "Englisch"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:69
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:72
 msgctxt "Example"
 msgid "GNOME glib syntax context example"
 msgstr "GNOME glib-Syntaxkontextbeispiel"
@@ -65,19 +65,19 @@ msgstr "GNOME glib-Syntaxkontextbeispiel"
 msgid "German"
 msgstr "Deutsch"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:46
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:48
 msgid "Localized date time format example:"
 msgstr "Lokales Datumsformatbeispiel:"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:51
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:53
 msgid "Localized enum combo example:"
 msgstr "Lokalisierte Enum-Combobox-Beispiel:"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:41
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:43
 msgid "Localized number format example:"
 msgstr "Lokales Zahlenformatbeispiel:"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:76
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:79
 msgid "Memory leak test progress:"
 msgstr "Speicherlecktestfortschritt:"
 
@@ -85,19 +85,19 @@ msgstr "Speicherlecktestfortschritt:"
 msgid "NGettext.WPF Example"
 msgstr "NGettext.WPF-Beispiel"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:73
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:76
 msgid "Run TrackCurrentCultureBehavior memory leak test"
 msgstr "Den TrackCurrentCultureBehavior-Speicherlecktest ausführen"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:99
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:100
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:102
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:103
 msgid "Singular"
 msgid_plural "Plural"
 msgstr[0] "Singular"
 msgstr[1] "Plural"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:102
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:103
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:108
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml.cs:109
 #, csharp-format
 msgid "Singular {0:n3}"
 msgid_plural "Plural {0:n3}"
@@ -121,25 +121,29 @@ msgstr "Ein dritter Wert"
 msgid "Some value"
 msgstr "Ein gewisser Wert"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:70
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:73
 msgid "Text with punctuation: 1, 2, 3"
 msgstr "Tekst mit Zeichensetzung: 1, 2, 3"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:67
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:70
 msgid "Unenclosed escaped single-quotes (') are supported."
 msgstr "Unclosed maskierte einfache Anführungszeichen (') werden unterstützt."
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:68
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
 msgid "Unicode™ in msgIds is supported"
 msgstr "Unicode™ in msgIds wird unterstützt"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:61
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:63
 msgid "Varying cAsE ExamPle:"
 msgstr "Beispiel von Variation zwiScHen Groß- und KleInBUchstaBen:"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:60
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:62
 msgid "Varying case example:"
 msgstr "Beispiel von Variation zwischen Groß- und Kleinbuchstaben:"
+
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:40
+msgid "中文"
+msgstr ""
 
 #, fuzzy
 #~ msgctxt ""
