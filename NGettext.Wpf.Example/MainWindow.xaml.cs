@@ -39,6 +39,11 @@ namespace NGettext.Wpf.Example
             }
         }
 
+        /// <summary>
+        /// 打开 MemoryLeak 测试窗口
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void OpenMemoryLeakTestWindow(object sender, RoutedEventArgs e)
         {
             var leakTestWindowReference = GetWeakReferenceToLeakTestWindow();
