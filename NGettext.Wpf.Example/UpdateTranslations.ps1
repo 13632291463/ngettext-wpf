@@ -32,4 +32,6 @@ $poFiles | ForEach-Object {
 }
 
 echo "Po files updated with current msgIds: " $poFiles
+echo “Po 文件更新了当前的 msgIds：”$poFiles
 echo "You may now edit these files with PoEdit (https://poedit.net/)"
+echo “您现在可以使用 PoEdit （https://poedit.net/） 编辑这些文件”

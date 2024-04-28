@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-26 09:51+0800\n"
+"POT-Creation-Date: 2024-04-28 10:12+0800\n"
 "PO-Revision-Date: 2024-04-24 10:38+0800\n"
 "Last-Translator: Robert Jørgensgaard Engdahl <rje@accuratech.dk>\n"
 "Language-Team: \n"
@@ -16,22 +16,9 @@ msgstr ""
 "X-Poedit-KeywordsList: Localizer.Noop\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:16
+#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:15
 msgid "(* To change min- and max input range, you need special rights)"
 msgstr "（*要改变最大最小范围，你需要高级权限）"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:21
-msgid "A,B"
-msgstr "A,B"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:22
-#, fuzzy
-msgid "A,C"
-msgstr "A,B"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:24
-msgid "ABC_AAAA"
-msgstr ""
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:71
 msgid "Binding string format support: {0:n0}"
@@ -66,7 +53,6 @@ msgid "Enclosing single-quotes (apostrophes) are optional."
 msgstr "Inhyllende apostroffer er valgfrie."
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:34
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:15
 msgid "English"
 msgstr "Engelsk"
 
@@ -78,10 +64,6 @@ msgstr "GNOME glib syntaks-context-eksempel"
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:36
 msgid "German"
 msgstr "Tysk"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:23
-msgid "HI"
-msgstr ""
 
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:46
 msgid "Localized date time format example:"
@@ -143,14 +125,6 @@ msgstr "En værdi"
 msgid "Text with punctuation: 1, 2, 3"
 msgstr "Tekst med tegnsætning: 1, 2, 3"
 
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:19
-msgid "To change"
-msgstr "（*要改变最大最小范围，你需要高级权限）"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:20
-msgid "To change min- and max input range, you need special rights"
-msgstr "（*要改变最大最小范围，你需要高级权限）"
-
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:67
 msgid "Unenclosed escaped single-quotes (') are supported."
 msgstr "Ikke-inhyllende, escapede apostroffer (') er understøttet."
@@ -166,14 +140,6 @@ msgstr "Eksempel På VaRiAtiOn i store og små bogstavEr:"
 #: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow.xaml:60
 msgid "Varying case example:"
 msgstr "Eksempel på variation i store og små bogstaver:"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:17
-msgid "change"
-msgstr "（*要改变最大最小范围，你需要高级权限）"
-
-#: D:\Users\Thinkpad\Documents\GitHub\ngettext-wpf\NGettext.Wpf.Example\MainWindow1.xaml:18
-msgid "change to"
-msgstr "（*要改变最大最小范围，你需要高级权限）"
 
 #, fuzzy
 #~ msgctxt ""
@@ -215,7 +181,26 @@ msgstr "（*要改变最大最小范围，你需要高级权限）"
 #~ "X-Poedit-KeywordsList: Localizer.Noop\n"
 #~ "X-Poedit-SearchPath-0: .\n"
 
+#~ msgid "A,B"
+#~ msgstr "A,B"
+
+#, fuzzy
+#~ msgid "A,C"
+#~ msgstr "A,B"
+
 #, fuzzy
 #~ msgctxt "EnumMsgId example"
 #~ msgid "Some third value"
 #~ msgstr "En tredje værdi"
+
+#~ msgid "To change"
+#~ msgstr "（*要改变最大最小范围，你需要高级权限）"
+
+#~ msgid "To change min- and max input range, you need special rights"
+#~ msgstr "（*要改变最大最小范围，你需要高级权限）"
+
+#~ msgid "change"
+#~ msgstr "（*要改变最大最小范围，你需要高级权限）"
+
+#~ msgid "change to"
+#~ msgstr "（*要改变最大最小范围，你需要高级权限）"

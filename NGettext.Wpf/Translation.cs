@@ -8,6 +8,9 @@ using NGettext.Wpf.Serialization;
 
 namespace NGettext.Wpf
 {
+    /// <summary>
+    /// Translation --译本
+    /// </summary>
     public static class Translation
     {
         private static TranslationSerializer _translationSerializer;
